@@ -1,0 +1,29 @@
+#1
+def triangleArea(c,d):
+    area = (c*d)/2
+    return area
+
+print('Triangle has a base of 3, height of 8, and an area of', triangleArea(3,8)
+      )
+
+#2
+def temp(x):
+    celsius = x*.32
+    return celsius
+
+print('Temperature is converted to', temp(95))
+
+#3
+
+def squareArea(e):
+    area = e * 4
+    return area
+print('The square has an area of', squareArea(0.5))
+
+
+#4.1 will give you 6.0
+
+#4.2 will give you 25
+
+#4.3 will give you 7
+
