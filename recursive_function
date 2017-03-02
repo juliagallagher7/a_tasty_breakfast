@@ -1,0 +1,27 @@
+# recursive function
+
+# recursive that prints a triangle pattern
+
+def main():
+    makeTriangle(10)
+
+
+# print a triangle with a given length
+
+def makeTriangle(sideLength):
+    if sideLength < 1: return
+    makeTriangle(sideLength-1)
+# print the row at the bottom
+    print("[]"*sideLength)
+
+# start the function
+main()
+
+
+
+def main(n):
+    if n>= 4:
+        main(n/2)
+    print(n)
+
+main(4)
