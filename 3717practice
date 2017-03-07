@@ -1,0 +1,39 @@
+#2
+my_list = [5,2,6,8,101]
+print(my_list[1])
+print(my_list[4])
+print(my_list[3]) # changed it from 5 to 3 bc 5 wont print bc there isnt
+#a 5th variable
+
+#3
+my_list=[5,2,6,8,101]
+for my_item in my_list:
+    print(my_item)
+
+#4
+my_list1 = [5,2,6,8,101]
+my_list2 = [5,2,6,8,101] #printed an error bc it was in parentheses not brackets
+my_list1[3] =  10
+print(my_list1)
+my_list2[2] = 5
+print(my_list2)
+
+#5
+my_list = [3 * 5]
+print(my_list)
+my_list = [3] * 5
+print(my_list)
+
+#6
+
+my_list = [5]
+for i in range(5):
+    my_list.append(i)
+print(my_list)
+
+#7
+
+print(len("Hi"))
+print(len("Hi there."))
+print(len("Hi") + len("there."))
+print(len("2"))
